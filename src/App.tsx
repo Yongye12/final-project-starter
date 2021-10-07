@@ -8,7 +8,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-         *Welcome to our page*
+         *Welcome to our page*.
                 </p>
                 <a
                     className="App-link"
