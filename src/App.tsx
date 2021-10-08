@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
+import { AddCount } from "./component/AddCount";
 function App(): JSX.Element {
     return (
         <div className="App">
@@ -10,16 +10,12 @@ function App(): JSX.Element {
                 <p>
          *Welcome to our page*.
                 </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-          Learn React
-                </a>
+                <AddCount></AddCount>
+
             </header>
         </div>
+                
+
     );
 }
 
