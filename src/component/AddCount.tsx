@@ -7,7 +7,7 @@ export function AddCount () : JSX.Element{
 
     return ( 
         <div>
-            Counts: {count};
+            Counts: {count}
             <br/>
             <button onClick = {() => setCount(count+1)}> Add Count</button>
         </div>
